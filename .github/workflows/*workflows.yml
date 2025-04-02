@@ -7,3 +7,7 @@ jobs:
     - uses: actions/checkout@v2
     - run: npm install
     - run: npm test
+# config.yml
+database:
+  host: localhost
+  port: 5432
